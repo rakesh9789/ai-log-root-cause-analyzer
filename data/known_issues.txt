@@ -1,0 +1,15 @@
+FileNotFoundError: config.yaml not found
+Root Cause: Configuration file missing during deployment
+Fix: Ensure config.yaml is packaged or mounted
+Prevention: Add startup validation for config files
+
+Database connection timeout
+Root Cause: Database service unavailable
+Fix: Restart database or verify connection string
+Prevention: Health checks before app startup
+
+PermissionError: Access denied
+Root Cause: Insufficient file permissions
+Fix: Update file permissions using chmod/chown
+Prevention: Validate permissions during deployment
+
