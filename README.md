@@ -64,3 +64,4 @@ initial root cause analysis and reducing mean time to resolution (MTTR).
 
 ### FastAPI Backend – API Response
 ![API Response](screenshots/api_response.png)
+
